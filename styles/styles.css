@@ -1,12 +1,14 @@
-#web_logo_rojo{
-height:"50px";
-width:"50px"
+#logo{
+height: 100px;
+    width: 100px;
+    background-color: powderblue;
 }
 
-#nav_container{
-text-size="20px"
+#nav_container {
+    font-family: verdana;
+    font-size: 30px;
 }
 
-body{
-background-color:"green"
+body {
+    background-color: lightblue;
 }
