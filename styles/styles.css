@@ -1,7 +1,20 @@
 * {
   margin: 0px;
   padding:0px;
+ 
+  
 
+}
+
+#backgroundVideo{
+	
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	opacity:0.5;
+	
+	
 }
 
 #logo{
@@ -10,6 +23,7 @@ height: 100px;
     background-color: powderblue;
 	margin:25px;
 	position:absolute;
+	
 }
 
 #nav_container {
@@ -22,11 +36,10 @@ height: 100px;
 	border: 3px dashed #777;
 	width:800px;
 	overflow:hidden;
-	
-	position:sticky;
-	
+	position:absolute;
 	
 	
+		
 }
 li {
     float: left;	
@@ -67,18 +80,58 @@ color: white;
 	height:150px;
 	float:right;
 	background-image: url("../images/header.jpg");
+	top:0px;
+	left:0px;
 }
 
-
-#backgroundVideo{
-	position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+#header_seperater{
+	
+	color:red;
+	margin-top:150px;
+	width:100%;
+	
+	
 	
 }
+
+.left_container{
+	height:800px;
+	width:600px;
+	margin-left:20px;
+	position:absolute;
+	margin-top:170px;
+}
+
+
+.right_container{
+	margin-left:700px;
+	margin-top:170px;
+	margin-right:100px;	
+	width:50%;
+	position:absolute;
+	
+	 font-family: verdana;
+    
+	
+	
+}
+#about_me{
+	color:white;
+	justify-content:center;
+	font-family: verdana;
+	font-size:20px;
+	
+}
+
+
+p.big_heading{
+	 font-family: verdana;
+    font-size: 50px;
+	color:white;
+}
+
 body {
-    background-color: lightblue;
+    background-color:black;
+	
 	
 }
